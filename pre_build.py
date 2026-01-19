@@ -109,7 +109,7 @@ Find below links to auto-generated markdown pages or interactive HTML pages for 
             config_md = GenerationConfiguration(
                 template_name='md',
                 with_footer=True,
-                show_toc=True,
+                show_toc=False,
                 link_to_reused_ref=True,
                 )
             generate_from_filename(
